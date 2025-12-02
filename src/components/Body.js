@@ -11,26 +11,13 @@ const Body = () => {
         </div>
       </div>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="Dmytro Kozariuk" style={styles.photo} />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>Dmytro Kozariuk</h2>
-          <p style={styles.position}>Developer</p>
-        </div>
-      </div>
-      <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="Sasha Semenenko" style={styles.photo} />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>Sasha Semenenko</h2>
-          <p style={styles.position}>Business-analyst</p>
-        </div>
-      </div>
-      <div style={styles.card}>
         <img src={"/Inna.heic"} alt="Inna Liulchak" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Inna Liulchaak</h2>
           <p style={styles.position}>UI/UX Designer</p>
         </div>
       </div>
+      <p>Test</p>
     </main>
   );
 };
