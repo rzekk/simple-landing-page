@@ -17,7 +17,27 @@ const Body = () => {
           <p style={styles.position}>UI/UX Designer</p>
         </div>
       </div>
-      <p>Test</p>
+      <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="Dmytro Kozariuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Dmytro Kozariuk</h2>
+          <p style={styles.position}>Developer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="Oleksandr Semenenko" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Oleksandr Semenenko</h2>
+          <p style={styles.position}>Business Analyst</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="Yarema Bernyk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Yarema Bernyk</h2>
+          <p style={styles.position}>Tester</p>
+        </div>
+      </div>
     </main>
   );
 };
